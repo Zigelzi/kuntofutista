@@ -13,7 +13,8 @@
 					<div class="pb-4">
 						<h2 class="text-lg font-bold">{team.teamName}</h2>
 						<p class="text-zinc-400">{team.clubName}</p>
-						<p>{team.address}</p>
+						<p>{team.location}</p>
+						<p>3 km kentälle</p>
 					</div>
 					<button class="bg-zinc-800 py-2 px-4 rounded hover:bg-zinc-100 hover:text-zinc-800"
 						>Lue lisää</button

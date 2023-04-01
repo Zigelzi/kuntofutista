@@ -3,7 +3,12 @@ export const load = () => {
 		{
 			clubName: 'VJS',
 			teamName: 'Kuntofutis',
-			address: 'Martinkyläntie 1, 01670 Vantaa'
+			address: {
+				street: 'Martinkyläntie 1',
+				postalCode: '01670',
+				city: 'Vantaa'
+			},
+			location: 'Myyrmäki, Länsi-Vantaa'
 		}
 	];
 
