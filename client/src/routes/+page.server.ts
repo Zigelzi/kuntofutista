@@ -8,7 +8,14 @@ export const load = () => {
 				postalCode: '01670',
 				city: 'Vantaa'
 			},
-			location: 'Myyrmäki, Länsi-Vantaa'
+			location: 'Myyrmäki, Länsi-Vantaa',
+			practises: [
+				{
+					weekday: 'Maanantai',
+					startTime: '21:00',
+					endTime: '22:00'
+				}
+			]
 		}
 	];
 

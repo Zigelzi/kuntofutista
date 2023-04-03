@@ -5,4 +5,6 @@
 <head>
 	<title>Kuntofutista</title>
 </head>
-<slot />
+<main class="bg-zinc-900 min-h-screen px-4">
+	<slot />
+</main>
