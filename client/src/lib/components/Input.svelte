@@ -5,5 +5,5 @@
 
 <label class="text-lg" for="email">
 	<slot>Syötä otsikko</slot>
-	<input class="block mt-2" {type} {name} id={name} />
+	<input class="block mt-2 text-zinc-950 p-1" {type} {name} id={name} />
 </label>
